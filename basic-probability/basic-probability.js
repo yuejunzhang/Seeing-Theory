@@ -1,6 +1,6 @@
 
 //Handles functionality of Probability
-$(document).ready(function () {
+$(window).on('load',function () {
     chance();
     expectation();
     variance();

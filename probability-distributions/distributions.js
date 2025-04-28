@@ -1,5 +1,5 @@
 //Handles functionality of Distributions
-$(document).ready(function () {
+$(window).on('load',function () {
   random_variable();
   discrete_continuous();
   clt();

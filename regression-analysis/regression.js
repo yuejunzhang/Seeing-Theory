@@ -1,6 +1,6 @@
 //Handles functionality of Regression
 
-$(document).ready(function() {
+$(window).on('load',function() {
   ols();
   correlation();
   anova();

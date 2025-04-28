@@ -1,5 +1,5 @@
 //Handles functionality of Compound Probability
-$(document).ready(function () {
+$(window).on('load',function () {
   conditional();
   counting();
   set();
