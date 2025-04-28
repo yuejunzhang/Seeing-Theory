@@ -1,7 +1,7 @@
 //Handles functionality of Bayesian Inference
 
 // load visualizations
-$( window ).load(function() {
+$(document).ready(function() {
   bayes();
   likelihood();
   prior();

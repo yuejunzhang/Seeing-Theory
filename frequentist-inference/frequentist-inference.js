@@ -1,7 +1,7 @@
 //Handles functionality of Statistical Inference
 
 // load visualizations
-$( window ).load(function() {
+$(document).ready(function() {
   estimation();
   confidence();
   bootstrapping();
