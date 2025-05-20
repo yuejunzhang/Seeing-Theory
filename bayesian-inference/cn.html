@@ -149,10 +149,10 @@
                     <h3>似然函数</h3>
                     <p>在统计学中， <em>似然函数</em> 的定义是：</p><span id="mathjax-5-2">
                     $$L(\theta | x) = P(x | \theta)$$</span>
-                    <p>似然函数的概念在频率学派和贝叶斯学派中都有重要的作用。</p>
+                    <p>已知采样数据，估计其分布模型（参数），似然函数的概念在频率学派和贝叶斯学派中都有重要的作用。</p>
                     <div class="interactive-wrapper">
                         <select id="dist" class="st-dropdown">
-                            <option disabled selected> -- 选择概率分布 -- </option>
+                            <option disabled selected> -- 选择预估的概率分布 -- </option>
                             <option value="uniform">均匀分布 Uniform (0,&theta;)</option>
                             <option value="normal">正态分布 Normal (&theta;, 1)</option>
                             <option value="exponential">指数分布 Exponential (&theta;)</option>
@@ -170,7 +170,7 @@
                         </div>
                         <div id="sample" class="button-1">生成样本</div>
                     </div>
-                    <p>拖动<span class="purple-color">紫色</span>滑块（改变\(\theta\)的值）并观察似然函数。</p>
+                    <p>拖动<span class="purple-color">紫色</span>滑块（改变\(\theta\)的值）并观察似然函数，其极值是最似然估计的分布模型参数。</p>
                 </div>
             </div>
             <div id="section3">
